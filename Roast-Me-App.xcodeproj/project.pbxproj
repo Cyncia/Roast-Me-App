@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F0EA821201DC724001A87CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0EA820201DC724001A87CB /* AppDelegate.swift */; };
+		9F0EA823201DC724001A87CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0EA822201DC724001A87CB /* ViewController.swift */; };
+		9F0EA826201DC724001A87CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0EA824201DC724001A87CB /* Main.storyboard */; };
+		9F0EA828201DC724001A87CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0EA827201DC724001A87CB /* Assets.xcassets */; };
+		9F0EA82B201DC724001A87CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0EA829201DC724001A87CB /* LaunchScreen.storyboard */; };
+		9F0EA836201DC724001A87CB /* Roast_Me_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0EA835201DC724001A87CB /* Roast_Me_AppTests.swift */; };
+		9F0EA841201DC724001A87CB /* Roast_Me_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0EA840201DC724001A87CB /* Roast_Me_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F0EA832201DC724001A87CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0EA815201DC724001A87CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F0EA81C201DC724001A87CB;
+			remoteInfo = "Roast-Me-App";
+		};
+		9F0EA83D201DC724001A87CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F0EA815201DC724001A87CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F0EA81C201DC724001A87CB;
+			remoteInfo = "Roast-Me-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F0EA81D201DC724001A87CB /* Roast-Me-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roast-Me-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0EA820201DC724001A87CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F0EA822201DC724001A87CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F0EA825201DC724001A87CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F0EA827201DC724001A87CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F0EA82A201DC724001A87CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F0EA82C201DC724001A87CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0EA831201DC724001A87CB /* Roast-Me-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roast-Me-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0EA835201DC724001A87CB /* Roast_Me_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roast_Me_AppTests.swift; sourceTree = "<group>"; };
+		9F0EA837201DC724001A87CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0EA83C201DC724001A87CB /* Roast-Me-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Roast-Me-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0EA840201DC724001A87CB /* Roast_Me_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roast_Me_AppUITests.swift; sourceTree = "<group>"; };
+		9F0EA842201DC725001A87CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F0EA81A201DC724001A87CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0EA82E201DC724001A87CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0EA839201DC724001A87CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F0EA814201DC724001A87CB = {
+			isa = PBXGroup;
+			children = (
+				9F0EA81F201DC724001A87CB /* Roast-Me-App */,
+				9F0EA834201DC724001A87CB /* Roast-Me-AppTests */,
+				9F0EA83F201DC724001A87CB /* Roast-Me-AppUITests */,
+				9F0EA81E201DC724001A87CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F0EA81E201DC724001A87CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F0EA81D201DC724001A87CB /* Roast-Me-App.app */,
+				9F0EA831201DC724001A87CB /* Roast-Me-AppTests.xctest */,
+				9F0EA83C201DC724001A87CB /* Roast-Me-AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0EA81F201DC724001A87CB /* Roast-Me-App */ = {
+			isa = PBXGroup;
+			children = (
+				9F0EA820201DC724001A87CB /* AppDelegate.swift */,
+				9F0EA822201DC724001A87CB /* ViewController.swift */,
+				9F0EA824201DC724001A87CB /* Main.storyboard */,
+				9F0EA827201DC724001A87CB /* Assets.xcassets */,
+				9F0EA829201DC724001A87CB /* LaunchScreen.storyboard */,
+				9F0EA82C201DC724001A87CB /* Info.plist */,
+			);
+			path = "Roast-Me-App";
+			sourceTree = "<group>";
+		};
+		9F0EA834201DC724001A87CB /* Roast-Me-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0EA835201DC724001A87CB /* Roast_Me_AppTests.swift */,
+				9F0EA837201DC724001A87CB /* Info.plist */,
+			);
+			path = "Roast-Me-AppTests";
+			sourceTree = "<group>";
+		};
+		9F0EA83F201DC724001A87CB /* Roast-Me-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F0EA840201DC724001A87CB /* Roast_Me_AppUITests.swift */,
+				9F0EA842201DC725001A87CB /* Info.plist */,
+			);
+			path = "Roast-Me-AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F0EA81C201DC724001A87CB /* Roast-Me-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0EA845201DC725001A87CB /* Build configuration list for PBXNativeTarget "Roast-Me-App" */;
+			buildPhases = (
+				9F0EA819201DC724001A87CB /* Sources */,
+				9F0EA81A201DC724001A87CB /* Frameworks */,
+				9F0EA81B201DC724001A87CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roast-Me-App";
+			productName = "Roast-Me-App";
+			productReference = 9F0EA81D201DC724001A87CB /* Roast-Me-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F0EA830201DC724001A87CB /* Roast-Me-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0EA848201DC725001A87CB /* Build configuration list for PBXNativeTarget "Roast-Me-AppTests" */;
+			buildPhases = (
+				9F0EA82D201DC724001A87CB /* Sources */,
+				9F0EA82E201DC724001A87CB /* Frameworks */,
+				9F0EA82F201DC724001A87CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0EA833201DC724001A87CB /* PBXTargetDependency */,
+			);
+			name = "Roast-Me-AppTests";
+			productName = "Roast-Me-AppTests";
+			productReference = 9F0EA831201DC724001A87CB /* Roast-Me-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F0EA83B201DC724001A87CB /* Roast-Me-AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F0EA84B201DC725001A87CB /* Build configuration list for PBXNativeTarget "Roast-Me-AppUITests" */;
+			buildPhases = (
+				9F0EA838201DC724001A87CB /* Sources */,
+				9F0EA839201DC724001A87CB /* Frameworks */,
+				9F0EA83A201DC724001A87CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F0EA83E201DC724001A87CB /* PBXTargetDependency */,
+			);
+			name = "Roast-Me-AppUITests";
+			productName = "Roast-Me-AppUITests";
+			productReference = 9F0EA83C201DC724001A87CB /* Roast-Me-AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F0EA815201DC724001A87CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alexander Chen";
+				TargetAttributes = {
+					9F0EA81C201DC724001A87CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9F0EA830201DC724001A87CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F0EA81C201DC724001A87CB;
+					};
+					9F0EA83B201DC724001A87CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F0EA81C201DC724001A87CB;
+					};
+				};
+			};
+			buildConfigurationList = 9F0EA818201DC724001A87CB /* Build configuration list for PBXProject "Roast-Me-App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F0EA814201DC724001A87CB;
+			productRefGroup = 9F0EA81E201DC724001A87CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F0EA81C201DC724001A87CB /* Roast-Me-App */,
+				9F0EA830201DC724001A87CB /* Roast-Me-AppTests */,
+				9F0EA83B201DC724001A87CB /* Roast-Me-AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F0EA81B201DC724001A87CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0EA82B201DC724001A87CB /* LaunchScreen.storyboard in Resources */,
+				9F0EA828201DC724001A87CB /* Assets.xcassets in Resources */,
+				9F0EA826201DC724001A87CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0EA82F201DC724001A87CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0EA83A201DC724001A87CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F0EA819201DC724001A87CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0EA823201DC724001A87CB /* ViewController.swift in Sources */,
+				9F0EA821201DC724001A87CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0EA82D201DC724001A87CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0EA836201DC724001A87CB /* Roast_Me_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0EA838201DC724001A87CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F0EA841201DC724001A87CB /* Roast_Me_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F0EA833201DC724001A87CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F0EA81C201DC724001A87CB /* Roast-Me-App */;
+			targetProxy = 9F0EA832201DC724001A87CB /* PBXContainerItemProxy */;
+		};
+		9F0EA83E201DC724001A87CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F0EA81C201DC724001A87CB /* Roast-Me-App */;
+			targetProxy = 9F0EA83D201DC724001A87CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F0EA824201DC724001A87CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0EA825201DC724001A87CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F0EA829201DC724001A87CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F0EA82A201DC724001A87CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F0EA843201DC725001A87CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F0EA844201DC725001A87CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F0EA846201DC725001A87CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Roast-Me-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Chen.Roast-Me-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F0EA847201DC725001A87CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Roast-Me-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Chen.Roast-Me-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F0EA849201DC725001A87CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Roast-Me-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Chen.Roast-Me-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roast-Me-App.app/Roast-Me-App";
+			};
+			name = Debug;
+		};
+		9F0EA84A201DC725001A87CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Roast-Me-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Chen.Roast-Me-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roast-Me-App.app/Roast-Me-App";
+			};
+			name = Release;
+		};
+		9F0EA84C201DC725001A87CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Roast-Me-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Chen.Roast-Me-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Roast-Me-App";
+			};
+			name = Debug;
+		};
+		9F0EA84D201DC725001A87CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Roast-Me-AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexander-Chen.Roast-Me-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Roast-Me-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F0EA818201DC724001A87CB /* Build configuration list for PBXProject "Roast-Me-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0EA843201DC725001A87CB /* Debug */,
+				9F0EA844201DC725001A87CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0EA845201DC725001A87CB /* Build configuration list for PBXNativeTarget "Roast-Me-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0EA846201DC725001A87CB /* Debug */,
+				9F0EA847201DC725001A87CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0EA848201DC725001A87CB /* Build configuration list for PBXNativeTarget "Roast-Me-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0EA849201DC725001A87CB /* Debug */,
+				9F0EA84A201DC725001A87CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F0EA84B201DC725001A87CB /* Build configuration list for PBXNativeTarget "Roast-Me-AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0EA84C201DC725001A87CB /* Debug */,
+				9F0EA84D201DC725001A87CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F0EA815201DC724001A87CB /* Project object */;
+}
